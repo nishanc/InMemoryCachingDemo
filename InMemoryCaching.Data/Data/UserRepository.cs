@@ -3,7 +3,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace InMemoryCaching.Data.Data
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly IMemoryCache _memoryCache;
 
