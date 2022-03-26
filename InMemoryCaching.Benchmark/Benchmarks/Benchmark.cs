@@ -1,4 +1,4 @@
-﻿using InMemoryCaching.Benchmark.Data;
+﻿using InMemoryCaching.Data.Data;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace InMemoryCaching.Benchmark.Benchmarks
@@ -11,6 +11,5 @@ namespace InMemoryCaching.Benchmark.Benchmarks
             IMemoryCache cache = new MemoryCache(new MemoryCacheOptions());
             Repository = new UserRepository(cache);
         }
-
     }
 }

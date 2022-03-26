@@ -1,5 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
-using InMemoryCaching.Benchmark.Models;
+using InMemoryCaching.Data.Models;
 
 namespace InMemoryCaching.Benchmark.Benchmarks
 {

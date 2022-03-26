@@ -1,4 +1,4 @@
-﻿namespace InMemoryCaching.Benchmark.Models
+﻿namespace InMemoryCaching.Data.Models
 {
     public class User
     {

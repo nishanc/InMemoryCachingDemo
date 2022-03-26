@@ -1,4 +1,7 @@
-﻿namespace InMemoryCaching.Data.Data
+﻿using InMemoryCaching.Data.Models;
+using Microsoft.Extensions.Caching.Memory;
+
+namespace InMemoryCaching.Data.Data
 {
     public class UserRepository
     {
