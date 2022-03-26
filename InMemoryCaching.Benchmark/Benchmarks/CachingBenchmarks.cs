@@ -12,7 +12,7 @@ namespace InMemoryCaching.Benchmark.Benchmarks
             return Repository.GetUsers();
         }
 
-        [Benchmark]
+        [Benchmark(Baseline = true)]
         public async Task<List<User>> WithoutCachingWithAsync()
         {
             return await Repository.GetUsersAsync();
