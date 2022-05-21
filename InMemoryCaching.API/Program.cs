@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMemoryCache(options =>
 {
     // Overall 1024 size (no unit)
-    options.SizeLimit = 1024;
+    // options.SizeLimit = 1024;
 });
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

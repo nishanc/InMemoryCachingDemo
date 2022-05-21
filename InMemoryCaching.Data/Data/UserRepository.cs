@@ -67,10 +67,10 @@ namespace InMemoryCaching.Data.Data
 
             #region MemoryCacheEntryOptions
             // Set cache options
-            var cacheOptions = new MemoryCacheEntryOptions()
-                .SetAbsoluteExpiration(TimeSpan.FromSeconds(30));
+            // var cacheOptions = new MemoryCacheEntryOptions()
+            //     .SetAbsoluteExpiration(TimeSpan.FromSeconds(30));
 
-            _memoryCache.Set("users", output, cacheOptions);
+            // _memoryCache.Set("users", output, cacheOptions);
             #endregion
 
             _memoryCache.Set("users", output, TimeSpan.FromMinutes(1));
